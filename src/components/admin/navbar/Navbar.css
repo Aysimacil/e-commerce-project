@@ -1,0 +1,42 @@
+.navbar {
+  border-right: 1px solid #ccc;
+  min-height: 80vh;
+}
+
+.navbar-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  background-color: var(--light-blue);
+}
+
+.navbar-user h4 {
+  color: #fff;
+}
+
+.nav-menu ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  position: relative;
+}
+
+.nav-menu ul li a {
+  display: block;
+  width: 100%;
+}
+
+.admin-nav-active {
+  cursor: pointer;
+}
+
+.admin-nav-active::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: orangered;
+}

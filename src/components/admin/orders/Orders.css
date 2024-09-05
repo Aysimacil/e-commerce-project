@@ -1,0 +1,65 @@
+.order {
+  padding: 10px;
+}
+
+.order h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.order p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.table {
+  padding: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.table table thead {
+  border-top: 2px solid var(--light-blue);
+  border-bottom: 2px solid var(--light-blue);
+}
+
+.table table th {
+  border: 1px solid #eee;
+}
+
+.table table th,
+.table table td {
+  vertical-align: top;
+  text-align: left;
+  padding: 8px;
+}
+
+.table table th.icons > * {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.table table tr {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.table table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.table table .pending {
+  color: orangered;
+  font-weight: 500;
+}
+
+.table table .delivered {
+  color: green;
+  font-weight: 500;
+}

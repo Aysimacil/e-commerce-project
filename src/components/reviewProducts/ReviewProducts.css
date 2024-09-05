@@ -1,0 +1,30 @@
+.review .card {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.review form label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.review form input[type='text'],
+.review form input[type='number'],
+.review form input[type='file'],
+.review form input[type='email'],
+.review form select,
+.review form textarea,
+.review form input[type='password'] {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 100%;
+  border: 1px solid #777;
+  border-radius: 3px;
+  outline: none;
+  resize: none;
+}
